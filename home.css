@@ -1,0 +1,104 @@
+
+#home {
+    display: grid; /* Use CSS grid layout */
+    grid-template-columns: auto auto; /* Two columns, first column auto-sized (for profile pic), second column takes remaining space */
+    grid-column-gap: 20px; /* Gap between columns */
+
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a301a;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+header h1{
+    text-align: left;
+    color:#fff
+    
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+#welcome-heading {
+    overflow: hidden;
+    border-right: .1em solid rgb(17, 17, 17); /* Change color as needed */
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 5s steps(40, end); /* Adjust timing as needed */
+    
+}
+
+.profile-pic {
+    width: 250px; /* Adjust size as needed */
+    height: 450px; /* Adjust size as needed */
+    border-radius: 50%; /* Create a circle */
+    overflow: hidden; /* Hide overflowing content */
+    margin: 0 auto 20px; /* Center the image and add margin */
+    background-image: url('profile_pic.jpg'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #fff; /* Optional: Add border to give it a circular frame */
+}
+
+.content h2{
+    
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.content {
+    margin:50px;
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    color: rgb(15, 14, 14); /* Text color */
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    
+    }
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-left: 0%;
+}
+.instagram-link {
+    color: #007bff;
+}
+.email-link{
+    color: #007bff;
+}
+.linkedin-link {
+    color: #007bff;
+}
+
+footer {
+    background-color:#0a301a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
